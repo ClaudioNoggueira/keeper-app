@@ -37,3 +37,22 @@ footer p {
     color: #ccc;
     text-align: center;
 }
+
+.note {
+    background-color: #FFF;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    float: left;
+    margin: 16px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.note h1 {
+    font-size: 1.1rem;
+}
+
+.note p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
