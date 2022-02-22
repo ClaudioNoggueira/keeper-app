@@ -25,3 +25,15 @@ header h1 {
     font-family: "McLaren", cursive;
     font-weight: 200;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+}
+
+footer p {
+    color: #ccc;
+    text-align: center;
+}
