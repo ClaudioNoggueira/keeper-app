@@ -45,7 +45,7 @@ footer p {
     float: left;
     margin: 16px;
     padding: 10px;
-    width: fit-content;
+    width: 240px;
 }
 
 .note h1 {
@@ -55,4 +55,6 @@ footer p {
 .note p {
     font-size: 1.1rem;
     margin: 5px 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
