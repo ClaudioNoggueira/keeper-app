@@ -40,8 +40,8 @@ footer p {
 
 .note {
     background-color: #FFF;
-    box-shadow: 0 2px 5px #ccc;
     border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
     float: left;
     margin: 16px;
     padding: 10px;
@@ -57,4 +57,40 @@ footer p {
     margin: 5px 0;
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+form {
+    background-color: #FFF;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 7px;
+    margin: 32px auto;
+    position: relative;
+    padding: 15px;
+    width: 560px;
+}
+
+form input,
+form textarea {
+    border: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 4px;
+    resize: none;
+    width: 100%;
+}
+
+form button {
+    background: #f5ba13;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: -18px;
+    right: 18px;
+    height: 36px;
+    width: 36px;
 }
