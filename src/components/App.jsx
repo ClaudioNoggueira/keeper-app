@@ -6,6 +6,9 @@ import Footer from './Footer';
 import Note from './Note';
 import CreateArea from './CreateArea';
 
+// default notes (dummy data)
+// import notes from '../notes';
+
 function App() {
     const [allNotes, setAllNotes] = useState([]);
 
@@ -20,6 +23,14 @@ function App() {
         });
     }
 
+    function deleteNote(id) {
+        setAllNotes(previousValues => {
+            return previousValues.filter((note, index) => {
+                return index !== id;
+            });
+        });
+    }
+
     return (
         <div>
             <Header />
@@ -28,6 +39,18 @@ function App() {
                 onAdd={addNote}
             />
 
+            {/* DUMMY DATA
+            {notes.map((note) => {
+                return (
+                    <Note
+                        id={note.key}
+                        key={note.key}
+                        title={note.title}
+                        content={note.content}
+                    />
+                );
+            })} */}
+
             {allNotes.map((note, index) => {
                 return (
                     <Note
@@ -35,6 +58,7 @@ function App() {
                         key={index}
                         title={note.title}
                         content={note.content}
+                        onDeleteAction={deleteNote}
                     />
                 );
             })}
