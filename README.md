@@ -5,7 +5,6 @@
 ### Features
 
 - Add note
-- Take note
 - Show all notes
 - Delete note
 
