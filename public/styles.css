@@ -71,7 +71,7 @@ footer p {
     width: 36px;
 }
 
-form {
+form.create-note {
     background-color: #FFF;
     box-shadow: 0 2px 5px #ccc;
     border-radius: 7px;
@@ -81,8 +81,8 @@ form {
     width: 560px;
 }
 
-form input,
-form textarea {
+form.create-note input,
+form.create-note textarea {
     border: none;
     font-family: inherit;
     font-size: 1.2rem;
@@ -92,7 +92,7 @@ form textarea {
     width: 100%;
 }
 
-form button {
+form.create-note button {
     background: #f5ba13;
     border: none;
     border-radius: 50%;
