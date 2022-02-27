@@ -2,11 +2,6 @@
 
 ## Google keep clone
 
-### Features
-
-- Add note
-- Delete note
-
 ### Screenshots
 
 ![Landing page](https://github.com/ClaudioNoggueira/keeper-app/blob/main/screenshots/landing.png)
